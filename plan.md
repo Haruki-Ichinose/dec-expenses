@@ -282,6 +282,16 @@ Done:
 - `php artisan test` passes.
 - The demo can be reproduced from seed data.
 
+## Deployment Policy
+
+IncomeFlow is a portfolio demo, not a formally released financial product.
+
+- Deploy a demo environment so reviewers can operate the app.
+- Use dummy income records and seeded payers by default.
+- Do not ask users to enter real salary, internship, tax, or reimbursement data.
+- Avoid legal, tax, or accounting advice in product copy.
+- Present the app as a working prototype that demonstrates income-side data modeling, aggregation, filtering, and CSV workflows.
+
 ## Future Ideas
 
 - Native `.xlsx` import.
